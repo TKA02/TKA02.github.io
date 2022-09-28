@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="media.css" rel="mediaquery" media="only screen and 
+        (max-device-width:700px)" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style type="text/css">
+        .service-form{
+            margin-top:25px;
+        }
+        .left {
+            display:inline-block;
+            position:relative;
+            margin-left: 10px;
+        }
+        .right {
+            margin-left: 100px;
+            
+        }
+        input {
+            margin-left: 15px;
+        }
+        #pitch {
+            margin-top: 45px;
+        }
+        
+        @media (max-width:555px) {
+            a.tabs {
+                margin-left:12px;
+            }
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header id="homepage-header">The Nature Conservancy</header>
+
+    <nav class="navigation" style="margin:0px">
+        <a href="index.html" style="text-decoration:none">
+            <img id="nav_logo" src="logo_new.jpg" alt="Nature Conservancy logo" style="height:30px;width:auto">
+        </a>
+
+        <button class="new_page" style="background-color:green;float:right">
+            <a href="services.html" style="text-decoration:none;color:white">Donate</a>
+        </button>
+
+        <button class="new_page" style="background-color:white;float:right">
+            <a href="services.html" style="text-decoration:none;color:green">Volunteer</a>
+        </button>
+
+        <a class="tabs" href="about_us.html">About Us</a>
+
+        <a class="tabs" href="services.html">Services</a>
+
+    </nav>
+    <section style="background-image:url(logo_new.jpg)">
+
+    </section>
+        <strong><h3 class="centered"style="color:white">HOW TO HELP:VOLUNTEER!</h3></strong>
+        <picture>
+            <img src="volunteering.jpg.jpg" alt="volunteers showing tools at
+            camera" align="center" style="display:block;margin-left:auto; 
+            margin-right:auto;margin-top:15px; width:99%;height:380px; object-fit:cover;">
+        </picture>
+    <!--PUT A HEADER OR A BACKGROUND IMAGE AT THE TOP OF PAGE-->
+    <div>
+    <section>
+        <article id="pitch">
+            <p>Do you love exploring one of our many preserves on a regular basis? 
+            Do you want to work with others to help protect natural spaces in 
+            your community? Are you interested in resource and land management? 
+            Turn your passion into action by joining NH Volunteers for Nature, 
+            a group of volunteers who donate thousands of hours annually in more
+            than 100 volunteer sites across the state</p>
+            <br />
+            <p> Let's us know if you are interested by filling out the form 
+                below!
+            </p>
+        </article>
+    </section>
+    <hr>
+    <section class="service-form">
+        <form action="#">
+            <div>
+                <label class="left">First Name</label>
+                <input type="text" name="first name">
+                
+                <label class="right">Last Name</label>
+                <input type="text" name="first name">
+            </div>
+            <br />
+            <div>
+                <label>Are you over the age of 18?</label>
+                <br />
+                <input type="radio" name="age_check" value="Yes">
+                <label>Yes</label>
+                <br />
+                <input type="radio" name="age_check" value="No">
+                <label>No</label>
+            </div>
+            <br />
+            <div>
+                <label class="left">Email</label>
+                <input type="email" name="volunteer email" 
+                style="margin-left: 45px">
+            </div>
+            <br />
+            <div>
+                <label class="left">What location would you like to work in?</label>
+                <select name="location perference" id="age_check">
+                    <option value="Park 0" style="display:none">
+                        Select a park:</option>
+                    <option value="Park 1">Black Pond Bog Nature Preserve</option>
+                    <option value="Park 2">Moshassuck River Preserve</option>
+                    <option value="Park 3">Aust Family Preserve at Lime Rock</option>
+                    <option value="Park 4">Sheldrick Forest Preserve Wilton</option>
+                    
+                </select>
+            </div>
+            <br />
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </section>
+    </div>
+    <footer id="my_footer">
+        <p>Copyright &copy; 2022, The Nature Conservancy</p>
+    </footer>
+</body>
+
+</html>

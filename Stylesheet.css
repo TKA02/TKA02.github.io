@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#homepage-header {
+    text-align: center;
+    background-color: white;
+    color: green;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: ridge;
+}
+
+nav.navigation {
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+    width: 98.4%;
+    height: auto;
+    display:block;
+
+}
+
+nav.navigation:hover {
+    background-color: beige;
+}
+
+#nav_logo:hover {
+    padding: inherit;
+    opacity: .9;
+}
+
+#phone-menu {
+    display: none;
+}
+
+#my_footer {
+     text-align: center;
+     font-size: 18px;
+     background-color: green;
+     color: white;
+     position: relative;
+     bottom: 0;
+     width: 99%;
+     height: 45px;
+}
+
+.tabs {
+    color: green;
+    margin-left: 95px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.new_page {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.content-wrap {
+    position: relative;
+    margin-right: 30px;
+}
+
+.mini-briefs {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

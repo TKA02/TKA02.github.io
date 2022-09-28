@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> Business Website</title>
+        <link href="Stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="media.css" rel="mediaquery" media="only screen and 
+        (max-device-width:700px)"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style type="text/css">
+            .article_photos {
+                margin-top: 20px;
+                margin-left: 20px;
+                height: 160px;
+                width: auto;
+           }
+        @media (max-width: 700px) {
+            #photo-1 {
+                object-fit: cover;
+                width: 99%;
+                height: 230px; 
+            }
+
+            #article-1{
+                display:block;
+            }
+
+            #photo-2 {
+                object-fit: cover;
+                width: 99%;
+                height: 230px;
+            }
+
+            #article-2 {
+                 display:block;
+            }
+        }
+
+        @media (max-width:555px) {
+            a.tabs {
+                margin-left:12px;
+            }
+        }
+
+        </style>
+    </head>
+     <body>
+    
+      <header id="homepage-header">The Nature Conservancy</header>  
+      
+      <nav class="navigation">
+        <a href="index.html" style="text-decoration:none" id="home-photo">
+            <img id="nav_logo" src="logo_new.jpg" alt="Nature Conservancy logo"
+            style="height:30px;width:auto">
+        </a>
+
+        <button class="new_page" style="background-color:green;float:right"> 
+            <a href="services.html" style="text-decoration:none;color:white">Donate</a>
+        </button>
+
+        <button class="new_page" style="background-color:white;float:right">
+            <a href="services.html" style="text-decoration:none;color:green">Volunteer</a>
+        </button>
+
+        <a class="tabs" href="about_us.html">About Us</a>
+
+        <a class="tabs" href="services.html">Services</a>
+
+        </nav>
+
+      <section>
+        <br />
+        <div class="content-wrap">
+             <img class="article_photos" id="photo-1" src="article 1st photo.jfif"
+              alt="nature photo" align="left">
+        <article class="mini-briefs" id="article-1">
+            <strong> <h4> Our Mission</h4> </strong>
+            <strong><h2> Conserving the Lights and Waters in Which all
+                lives Depend
+            </h2></strong>
+
+            <p>Every acre we protect and every river mile we restore begins with you. 
+            Your support helps us take on the dual threats of climate change and
+            biodiversity loss across 70+ countries and territories.</p>
+        </article>
+        </div>
+        <br />
+        <div class="content-wrap">
+            <img class="article_photos" id="photo-2" src="photo contest.jpg" alt="second nature photo" align="right">
+        <article class="mini-briefs" id="article-2"style="margin-left: 60px">
+            <strong><h4>Contest</h4></strong>
+            <strong><h2>Our 2022 Global Photo Contest</h2></strong>
+            <p>Check out some of the amazing submissions to this year's Global 
+            Photo Contest before winners are announced later this
+            month!</p>
+
+            <button class="new_page" style="background-color:green">
+                <a href="https://www.nature.org/en-us/get-involved/how-to-help/photo-contest/" 
+                style="text-decoration:none;color:white">View Submissions</a>
+            </button>
+        </article>
+        </div>
+        
+        <br />
+        <br />
+        <div>
+
+        </div>
+
+        <footer id="my_footer">
+            <p>Copyright &copy; 2022, The Nature Conservancy</p>
+        </footer>
+      </section>
+    
+    </body>
+</html>
